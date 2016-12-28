@@ -19,6 +19,10 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func unwind(segue: UIStoryboardSegue){
+        //他の画面からsegueを使って戻ってきた時に呼ばれる
+    }
 
 
 }

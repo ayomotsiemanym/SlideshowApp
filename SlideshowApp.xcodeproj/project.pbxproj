@@ -14,6 +14,8 @@
 		A58432661E0CFEDC00A8791B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A58432641E0CFEDC00A8791B /* LaunchScreen.storyboard */; };
 		A58432711E0CFEDC00A8791B /* SlideshowAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58432701E0CFEDC00A8791B /* SlideshowAppTests.swift */; };
 		A584327C1E0CFEDC00A8791B /* SlideshowAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A584327B1E0CFEDC00A8791B /* SlideshowAppUITests.swift */; };
+		A584328A1E0CFF2200A8791B /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58432891E0CFF2200A8791B /* ResultViewController.swift */; };
+		A584328C1E0D0D4E00A8791B /* スクリーンショット 2016-12-23 7.41.56.png in Resources */ = {isa = PBXBuildFile; fileRef = A584328B1E0D0D4E00A8791B /* スクリーンショット 2016-12-23 7.41.56.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		A58432771E0CFEDC00A8791B /* SlideshowAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideshowAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A584327B1E0CFEDC00A8791B /* SlideshowAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideshowAppUITests.swift; sourceTree = "<group>"; };
 		A584327D1E0CFEDC00A8791B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A58432891E0CFF2200A8791B /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		A584328B1E0D0D4E00A8791B /* スクリーンショット 2016-12-23 7.41.56.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2016-12-23 7.41.56.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +101,11 @@
 		A584325A1E0CFEDC00A8791B /* SlideshowApp */ = {
 			isa = PBXGroup;
 			children = (
+				A584328B1E0D0D4E00A8791B /* スクリーンショット 2016-12-23 7.41.56.png */,
 				A584325B1E0CFEDC00A8791B /* AppDelegate.swift */,
 				A584325D1E0CFEDC00A8791B /* ViewController.swift */,
 				A584325F1E0CFEDC00A8791B /* Main.storyboard */,
+				A58432891E0CFF2200A8791B /* ResultViewController.swift */,
 				A58432621E0CFEDC00A8791B /* Assets.xcassets */,
 				A58432641E0CFEDC00A8791B /* LaunchScreen.storyboard */,
 				A58432671E0CFEDC00A8791B /* Info.plist */,
@@ -234,6 +240,7 @@
 			files = (
 				A58432661E0CFEDC00A8791B /* LaunchScreen.storyboard in Resources */,
 				A58432631E0CFEDC00A8791B /* Assets.xcassets in Resources */,
+				A584328C1E0D0D4E00A8791B /* スクリーンショット 2016-12-23 7.41.56.png in Resources */,
 				A58432611E0CFEDC00A8791B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +268,7 @@
 			files = (
 				A584325E1E0CFEDC00A8791B /* ViewController.swift in Sources */,
 				A584325C1E0CFEDC00A8791B /* AppDelegate.swift in Sources */,
+				A584328A1E0CFF2200A8791B /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
