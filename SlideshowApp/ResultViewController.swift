@@ -9,10 +9,14 @@
 import UIKit
 
 class ResultViewController: UIViewController {
-
+    
+    @IBOutlet weak var ResultImageView: UIImageView!
+    
+    var x:String = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        ResultImageView.image = UIImage(named: x)
         // Do any additional setup after loading the view.
     }
 
@@ -21,7 +25,6 @@ class ResultViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
     /*
     // MARK: - Navigation
 
