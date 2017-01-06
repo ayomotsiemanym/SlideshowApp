@@ -49,8 +49,8 @@
                                     <constraint firstAttribute="height" constant="128" id="RVc-yL-5ch"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CnR-ya-wDD">
-                                <rect key="frame" x="67" y="164" width="239" height="177"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CnR-ya-wDD">
+                                <rect key="frame" x="67" y="188" width="239" height="128"/>
                                 <connections>
                                     <segue destination="CWR-29-dhb" kind="show" id="7Mz-BE-SDx"/>
                                 </connections>

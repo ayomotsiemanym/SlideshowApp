@@ -19,6 +19,7 @@ class ViewController: UIViewController {
         counter = counter + 1
         if ( counter > 10 ) {
             counter = 0
+            ImageView.image = UIImage(named: imageArray[counter])
         }else{
             ImageView.image = UIImage(named: imageArray[counter])
         }
@@ -28,6 +29,7 @@ class ViewController: UIViewController {
         counter = counter - 1
         if(counter < 0){
             counter = 10
+            ImageView.image = UIImage(named: imageArray[counter])
         }else{
             ImageView.image = UIImage(named: imageArray[counter])
         }
